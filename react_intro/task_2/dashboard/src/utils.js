@@ -13,3 +13,11 @@ export const getFullYear = () => new Date().getFullYear();
  */
 export const getFooterCopy = (isIndex) =>
 	isIndex ? "Holberton School" : "Holberton School main dashboard";
+
+/**
+ * getLatestNotification - Returns the latest urgent notification.
+ *
+ * @returns {string} - The HTML-formatted urgent notification.
+ */
+export const getLatestNotification = () =>
+	`<strong>Urgent requirement</strong> - complete by EOD`;
