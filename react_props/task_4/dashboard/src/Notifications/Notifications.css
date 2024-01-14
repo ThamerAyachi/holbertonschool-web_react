@@ -1,0 +1,31 @@
+.Notifications {
+	padding: 10px;
+	margin: 10px;
+	border: dashed 1px #ff0200;
+	width: 30vw;
+	display: none;
+}
+
+.active {
+	display: block !important;
+}
+
+.menuItem {
+	position: relative;
+	left: 45vh;
+}
+
+.n {
+	width: 25vw;
+	position: absolute;
+	left: 65vw;
+	top: 10px;
+}
+
+li[data-priority="default"] {
+	color: #1d0563;
+}
+
+li[data-priority="urgent"] {
+	color: #ff0200;
+}
